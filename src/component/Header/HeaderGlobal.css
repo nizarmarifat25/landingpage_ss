@@ -1,0 +1,40 @@
+@keyframes bounceTop_01 {
+    0%,
+    100% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+  }
+  @keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    }
+  #home {
+    background-image: url('../asset/images/bg2.jpg');
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+  }
+  #home img {
+    padding-top: 150px;
+    animation: bounceTop_01 3s ease infinite;
+  }
+  #home h2,#home h1{
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  #home .container p {
+    font-size: 30px;
+    padding: 0.5rem;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }

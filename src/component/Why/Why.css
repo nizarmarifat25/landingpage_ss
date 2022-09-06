@@ -1,0 +1,27 @@
+#why{
+    background-image: url('../asset/images/bg2.jpg');
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#why .container{
+    border-radius:50px;
+    padding: 50px;
+    background-color: #73b5fc;
+}
+#why h3{
+    border-bottom: 3px solid #4599f3;
+    color: white; 
+}
+#why p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+@media(min-width:900px){
+    #why p{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}

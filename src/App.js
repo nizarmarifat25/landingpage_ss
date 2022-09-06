@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Navbar from './component/Navbar/Navbar'
 
 function App() {
+  const toggle1 = () => {
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    navbar.classList.add("show");
+    menuBtn.classList.add("hide");
+    cancelBtn.onclick = () => {
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar toggle={toggle1} />
     </div>
-  );
+
+  )
 }
 
-export default App;
+export default App

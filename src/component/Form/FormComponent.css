@@ -1,0 +1,31 @@
+#form-component{
+    background-image: url('../asset/images/bg2.jpg');
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px 0;
+}
+#form-component .container{
+    border-radius: 40px 10px 10px 10px;
+    padding: 50px;
+    background-color: #73b5fc8f;
+}
+#form-component h1{
+    font-size: 2.5rem;
+}
+#form-component p{
+    font-size: 1rem;
+}
+.form-control{
+    margin: 10px 0;
+}
+@media(min-width:700px){
+    #form-component h1{
+        font-size: 3.5rem;
+    }
+    #form-component p{
+        font-size: 1.5rem;
+    }
+}

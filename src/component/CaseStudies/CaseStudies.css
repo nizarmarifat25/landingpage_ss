@@ -1,0 +1,42 @@
+#case-studies form{
+    width: 250px;
+    margin: 0 auto;
+    color: white;
+    background-color: DodgerBlue;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+}
+select{
+    cursor: pointer;
+    border-radius:5px ;
+    margin: 0 10px !important;
+    padding: 5px 10px;
+    border: none;
+}
+option{
+    padding: 20px 0;
+}
+.master--card .card {
+    text-align: left !important;
+    padding: 30px;
+    display: inline-block !important;
+    width: 250px;
+    box-shadow: #73b5fc 0px 3px 8px;
+    background-color: #fff !important;
+}
+.master--card .card span {
+    margin-right:10px ;
+    
+}
+.master--card .card span:nth-child(2n) {
+    font-weight: 300;
+}
+@media(min-width : 900px){
+    .master--card .card {
+        width: 350px;
+    }
+    #case-studies form{
+        width: 500px;
+    }
+}

@@ -1,0 +1,22 @@
+#we-are-using{
+    background-image: url('../asset/images/bg2.jpg');
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#we-are-using img{
+    height: 75px;
+}
+@media(min-width:900px){
+    #we-are-using img{
+        height: 100px;
+    }
+}
+@media(max-width:400px){
+    #we-are-using img{
+        height: 50px;
+        padding: 10px !important;
+    }
+}

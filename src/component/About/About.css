@@ -1,0 +1,13 @@
+#about {
+    color: white;
+    background-color: black;
+}
+
+.server-amico img {
+    margin-top: -30px;
+}
+@media (min-width: 1085px){
+  #about p {
+      margin-top: 80px;
+  }
+}
